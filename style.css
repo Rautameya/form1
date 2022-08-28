@@ -31,6 +31,9 @@ nav{
     background: rgb(117, 111, 75);
     color: aliceblue;
     padding: 3rem;
+    display: flex ;
+    justify-content: space-between;
+
 }
 nav h1{
     float: left;
@@ -56,9 +59,16 @@ nav li{
 .Hero button{
     padding: 2rem 4rem;
     margin-top: 3rem;
-    background: silver;
+    font-weight: bold;
+background: linear-gradient(135deg, #71b7e6, #9b59b6);  
     cursor: pointer;
     font-size: 6rem;
+    color: white;
+    
+}
+.Hero button:hover {
+   background-color: aquamarine;
+
 }
 .Form{
     text-align: center;
@@ -80,8 +90,67 @@ h2{
 }
 form button{ 
     padding: 2rem 6rem;
+    color: white;
     margin-top: 3rem;
-    background: silver;
     cursor: pointer;
     font-size: 6rem;
+    font-weight: bold;
+    background: linear-gradient(135deg, #71b7e6, #9b59b6);
 }
+@media screen and (max-width:1000px){
+    .Hero button {
+        padding: 1rem 3rem;
+        margin-top: 2rem;
+        cursor: pointer;
+        font-size: 1rem;
+        border-radius: 20px
+    }
+    nav{
+        display: flex;
+        justify-content: flex-end;
+    padding: 2rem 0rem;
+    align-items: center;
+    }
+    .Hero h2 {
+        font-size: 4.4rem;
+        padding: 4rem 0rem;
+    }
+    h3 {
+        font-size: 3.8rem;
+    }
+    nav ul{
+        display: flex;
+        font-size: 7px;
+    }
+    nav li{
+        margin: 0rem 2rem;
+    }
+    h1 {
+        font-size: 3.5rem;
+    }
+    form button {
+    padding: 1rem 3rem;
+    margin: 2rem;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 1rem;
+}
+h2 {
+    font-size: 4rem;
+    margin: 3.5rem;
+}
+form input, form label, form textarea {
+    font-size: 2.5rem;
+    display: block;
+}
+form input {
+    margin: 2rem auto;
+    width: 68%;
+}
+form textarea {
+    margin: 2rem auto;
+    width: 68%;
+}
+
+}
+    

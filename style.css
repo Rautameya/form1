@@ -1,0 +1,87 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;}
+html{
+    font-size: 62.5%;
+}
+.clear{
+    clear: both;
+}
+h1{
+    font-size: 5.8rem;
+}
+.Hero h2{
+    font-size: 15rem;
+    padding:5rem 0rem ;
+}
+a{
+    color: white;
+    text-decoration: none;
+    font-size: 2.4rem;
+}
+h3{
+    font-size: 9.8rem;
+}
+button{
+    font-size: 1.8rem;
+    padding: 1rem;
+}
+nav{
+    background: rgb(117, 111, 75);
+    color: aliceblue;
+    padding: 3rem;
+}
+nav h1{
+    float: left;
+}
+nav ul{
+    float: right;
+    list-style: none;
+}
+nav li{
+    float: left;
+    margin: 0rem 4rem;
+}
+.Hero{
+    background-image: url("/img/pexels-emmanuel-ikwuegbu-11022596.jpg");
+    height: 100rem;
+    /*background-position: center;*/
+    background-size: cover;
+    text-align: center;
+    color: black;
+    padding-top: 15rem;
+    text-shadow: 3px 3px 3px aliceblue;
+}
+.Hero button{
+    padding: 2rem 4rem;
+    margin-top: 3rem;
+    background: silver;
+    cursor: pointer;
+    font-size: 6rem;
+}
+.Form{
+    text-align: center;
+}
+form input,form label,form textarea{
+    font-size: 4rem;
+    display: block;
+}
+form input{
+    margin: 2rem auto;
+    width: 50%;
+}
+form textarea{
+    margin: 2rem auto;
+    width: 50%;
+}
+h2{
+    font-size: 7rem;
+}
+form button{ 
+    padding: 2rem 6rem;
+    margin-top: 3rem;
+    background: silver;
+    cursor: pointer;
+    font-size: 6rem;
+}
